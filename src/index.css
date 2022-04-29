@@ -97,3 +97,45 @@ p {
   color: black !important;
   margin-top: 20px !important;
 }
+
+
+.dropdown{
+  margin-right: 6rem !important;
+  margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+      .dropdown{
+        margin-right: 0;
+      }
+}
+
+
+@media only screen and (max-width: 992px)  {
+      .dropdown{
+        margin-right: 0 !important;
+      }
+}
+
+
+.profile__data h2,
+.profile__data h1,
+.profile__data p,
+.profile__data h4{
+  text-align: left !important;
+  padding: 0;
+  margin: 0;
+
+}
+
+@media only screen and (max-width: 1200px)  {
+  .bs {
+    box-shadow:  none !important;
+    margin-top: 0px !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+  }
+  
+} 
